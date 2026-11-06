@@ -1,0 +1,13 @@
+GEORGE DAVIS PORTFOLIO — PUBLISHING CHECKLIST
+
+[ ] Replace YOUR_EMAIL@example.com in index.html
+[ ] Add your LinkedIn profile URL
+[ ] Add your GitHub profile URL
+[ ] Replace temporary illustrated profile placeholder with your own photo
+[ ] Add the Microsoft IT Helpdesk Specialist certificate image
+[ ] Check all service descriptions and project examples
+[ ] Upload index.html, assets/ and README.md to the root of a GitHub repository
+[ ] Enable GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root)
+[ ] Open the published URL and test it on desktop and mobile
+
+Important: project cards are demonstration concepts, not claims of completed client work.
