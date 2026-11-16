@@ -104,8 +104,8 @@
         </div>
       </div>
       <form class="contact-form" id="contactForm"><h3>Send a project enquiry</h3><p style="font-size:12px">Complete the form to prepare an email enquiry.</p>
-        <div class="field"><label for="name">Georg Davis</label><input id="name" name="name" required placeholder="Name"></div>
-        <div class="field"><label for="email">georgedavis10@gmail.com</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+        <div class="field"><label for="name">Your Name</label><input id="name" name="name" required placeholder="Name"></div>
+        <div class="field"><label for="email">youremail@mnop.com</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
         <div class="field"><label for="service">WHAT DO YOU NEED HELP WITH?</label><select id="service" name="service"><option>Website design or editing</option><option>Generative AI and productivity</option><option>Python data analysis</option><option>IT helpdesk support</option><option>Combined digital project</option><option>Something else</option></select></div>
         <div class="field"><label for="message">PROJECT DETAILS</label><textarea id="message" name="message" required placeholder="Briefly describe your goals, requirements or challenge..."></textarea></div>
         <button class="btn" type="submit" style="border:0;cursor:pointer;width:100%">Prepare email enquiry ↗</button>
@@ -123,9 +123,9 @@
     document.getElementById('contactForm').addEventListener('submit',e=>{
       e.preventDefault();
       const d=new FormData(e.currentTarget);
-      const recipient='YOUR_EMAIL@example.com';
+      const recipient='georgekwesidavis@icloud.com';
       const toast=document.getElementById('formToast');
-      if(recipient==='YOUR_EMAIL@example.com'){
+      if(recipient==='georgekwesidavis@icloud.com'){
         toast.textContent='Please edit index.html and replace YOUR_EMAIL@example.com with your real email address before using the contact form.';
         toast.style.display='block';
         return;
